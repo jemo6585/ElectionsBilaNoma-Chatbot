@@ -1,0 +1,20 @@
+{"intents": [
+  {"tag":  "greetings",
+  "patterns": ["hi", "hello", "hi there", "What's up?", "How is it going"],
+  "responses": ["hello!", "hey!", "What can I do for you?"]},
+  {"tag": "goodbye",
+  "patterns": ["bye", "talk later", "see you later", "i'm leaving"],
+  "responses": ["bye", "see ya", "see you later", "have a nice day"]},
+  {"tag": "name",
+  "patterns": ["what is your name", "name", "first name", "last name", "surname"],
+  "responses": ["Am your assistant", "Call me Bobby", "I'm your virtual assistant"]},
+  {"tag": "age",
+  "patterns": ["how old are you", "what is your age", "age", "how many years old are you"],
+  "responses": ["am just two years old", "You are so curious, anyway i'm just two years old", "Two years old"]},
+  {"tag": "joke",
+  "patterns": ["tell me a joke", "tell me a funny joke", "are you funny"],
+  "responses": ["What type of nails do carpenters hate hitting? ... fingernails", "What do you tell a tell a carpenter who finished his work on time? You nailed it!"]},
+  {"tag": "developer",
+  "patterns": ["who made you?", "who owns you?", "who is you developer"],
+  "responses": ["I'm a product of Artificial Intelligence", "I'm the product of a machine learning engineer"]}
+]}
